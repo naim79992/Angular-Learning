@@ -1,0 +1,8 @@
+<p>header works!</p>
+<div style="background-color: lightblue; padding: 10px;">
+    <h2>{{ titleFromParent }}</h2>
+
+    @if (showButton) {
+        <button (click)="sendData()">Send Message to Parent</button>
+    }
+</div>
